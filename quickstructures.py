@@ -12,3 +12,6 @@ def nstruct(name):
         of = lambda **things: nt(name, things.keys())(**things)
     )
 
+t = tuple
+def tt(*things): return tuple(things)
+
